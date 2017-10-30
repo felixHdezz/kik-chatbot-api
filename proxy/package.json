@@ -1,0 +1,17 @@
+{
+  "name": "kik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kikinteractive/kik": "^2.2.0",
+    "body-parser": "^1.17.2",
+    "mongodb": "^2.2.27",
+    "sync": "^0.2.5"
+  }
+}
