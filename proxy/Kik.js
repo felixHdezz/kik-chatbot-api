@@ -27,6 +27,7 @@ try {
 let bot = new Bot(config);
 
 function init() {
+    //CONNECTION TO DATA BASE MONGODB
     MongoClient.connect(mongoUrl, function(err, db){
         if(err){
             debugPrint(err, null);
