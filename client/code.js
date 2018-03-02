@@ -51,7 +51,6 @@ function MessageHandler(context, event){
                 }
             };
             context.sendResponse(JSON.stringify(payload));
-            
             var payload = {
                 "type":'keyboard',
                 payload : {
@@ -85,6 +84,6 @@ function MessageHandler(context, event){
 
 var handlers = {
     showInit : function(type){
-        
+        /* CODE HERE */
     }
 }
